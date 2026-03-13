@@ -1,6 +1,11 @@
 
 
+* {
+    box-sizing: border-box;
+}
+
 
 body {
-    background: red;
+    background: rgb(250,250,250);
+
 }
