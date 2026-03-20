@@ -35,7 +35,11 @@ function createInsect() {
 
     insect.addEventListener('click', () => {
         console.log("You clicked me!")
-    }
+        insect.classList.add('caught')
+        setTimeout(insect.remove(), 2000)
+        setTimeout(createInsect, 1000)
+        setTimeout(createInsect, 1500)
+    })
 }
 
 function getRandomLocation() {
