@@ -16,7 +16,6 @@ for (let i = 0; i < choose_insect_btns.length; i = i + 1)
         src = img.getAttribute('src')
         alt = img.getAttribute('alt')
         startGame()
-        createInsect()
     })
 }
 
