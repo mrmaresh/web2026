@@ -28,6 +28,6 @@ function createInsect() {
     console.log("hello")
     insect = document.createElement('div')
     insect.classList.add('insect')
-    insect.innerHtml = `<img src="images/spiderbg.png" alt="spider">`
+    insect.innerHtml = "Hello"
     game_container.appendChild(insect)
 }
